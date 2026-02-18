@@ -160,37 +160,6 @@ python ingest.py
 ollama serve
 streamlit run app.py
 ```
-
-## 🌐 Push to GitHub
-
-### First Time Setup
-
-1. **Create a GitHub repo**
-   - Go to [github.com/new](https://github.com/new)
-   - Create repository: `rag-chatbot`
-   - Don't initialize with README (we have one)
-
-2. **Initialize Git** (in your project folder)
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: RAG chatbot setup"
-   git branch -M main
-   ```
-
-3. **Add Remote & Push**
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/rag-chatbot.git
-   git push -u origin main
-   ```
-
-### Quick Push (after changes)
-```bash
-git add .
-git commit -m "Your message here"
-git push
-```
-
 ## 📄 License
 
 MIT License - feel free to use and modify
@@ -211,3 +180,4 @@ Contributions welcome! Feel free to:
 ---
 
 **Questions?** Open an issue on GitHub! 🚀
+
